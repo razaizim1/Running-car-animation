@@ -12,6 +12,7 @@ body {
     position: relative;
     overflow-x: hidden;
 }
+
 .highway {
     height: 200px;
     width: 500%;
@@ -68,14 +69,15 @@ body {
 
 @keyframes car {
     100% {
-        transform: translateY(-2px);
+        transform: translateY(-1px);
     }
+
     50% {
-        transform: translateY(2px);
+        transform: translateY(1px);
     }
 
     0% {
-        transform: translateY(-2px);
+        transform: translateY(-1px);
     }
 }
 
@@ -88,21 +90,21 @@ body {
 }
 
 .wheel img {
-    width: 72px;
-    height: 72px;
+    width: 60px;
+    height: 60px;
     animation: wheel 1s linear infinite;
 }
 
 .back-wheel {
     position: absolute;
-    left: -137px;
-    top: 27px;
+    left: -132px;
+    top: 33px;
 }
 
 .font-wheel {
     position: absolute;
-    left: 67px;
-    top: 27px;
+    left: 72px;
+    top: 33px;
 }
 
 @keyframes wheel {
